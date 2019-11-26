@@ -95,3 +95,5 @@
 **Strategy**
 
 Initially started the convolution with 10,16 and 32 kernels to fetch as many features as possible till max pooling. After that I used just 16 and 10 kernels to go to the last layer which was of 5 pixels on which I used the 5x5 kernel.
+
+Tried to use global average pooling after 5 pixels, but it increases the difference between validation and test accuracy. So, submitting the assignment without using GAP.
